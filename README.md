@@ -43,7 +43,7 @@
 >sysctl -p
 
 
-[二 ulimit]
+[二 ulimit]//two ulimit
 =======================================
 
 查看ulinit所有配置：//View all configuration of ulinit:
