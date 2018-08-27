@@ -27,19 +27,19 @@
 >#sudo vi /etc/sysctl.conf
 
 
->a
+>a（vi内部命令）
 
 
->net.ipv4.tcp_rmem=4000 80000 6000000
+>net.ipv4.tcp_rmem=4000 80000 6000000（添加此行）
 
 
->net.core.netdev_max_backlog=10000
+>net.core.netdev_max_backlog=10000（添加此行）
 
 
->esc
+>esc（vi内部命令）
 
 
->:wq
+>:wq（vi内部命令）
 
 
 >sysctl -p
