@@ -11,13 +11,11 @@
 
 >#sudo sysctl -a|grep [name substring]
 
-（例如查看net.ipv4.tcp_rmem）
-----------------------------------------
+（例如查看net.ipv4.tcp_rmem ：）
 
 >#sudo sysctl -a|grep tcp_rmem
 
-（例如查看内核名中包含tcp的所有内核设置）
-----------------------------------------
+（例如查看内核名中包含tcp的所有内核设置 ：）
 
 >#sudo sysctl -a|grep tcp
 
